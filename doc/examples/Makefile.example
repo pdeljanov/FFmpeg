@@ -30,6 +30,7 @@ EXAMPLES=       avio_list_dir                      \
                 scaling_video                      \
                 transcode_aac                      \
                 transcoding                        \
+                ffbench                            \
 
 OBJS=$(addsuffix .o,$(EXAMPLES))
 
